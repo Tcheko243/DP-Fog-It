@@ -79,6 +79,7 @@ Fog It is a powerful Blender addon that allows you to add realistic volumetric f
 - Heavy noise settings may impact viewport performance
 - Large volume sizes with high density may increase render times in Cycles
 - Real-time updates might be slower on lower-end systems
+- if nothing work when you add fog, just change on parameter to refresh
 
 ## Tips & Tricks
 1. Start with lower density values and adjust gradually
@@ -97,6 +98,9 @@ This project is licensed under the GNU License - see the LICENSE file for detail
 Created by Dimona Patrick
 
 ## Version History
+-1.2.1:Current release
+  -Material creation for Fog_volume work now
+  -2D Fog for evee and 3D Fog for cycles work well now
 - 1.2: Current release
   - Added real-time updates
   - Improved noise controls
